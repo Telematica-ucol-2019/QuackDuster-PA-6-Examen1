@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exam_Apps.Page1">
+    <ContentPage.Content>
+        <Grid Background="#1565C0" RowSpacing="1.5" ColumnSpacing="1.5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2.2*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+
+            <StackLayout HorizontalOptions="Start" Margin="20">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="⬅ &#10;" FontAttributes=" Bold" TextColor="White" FontSize="Title"/>
+                            <Span Text="Product Planning" FontAttributes="Bold" FontSize="Title" TextColor="White" LineHeight="3.5"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+            </StackLayout>
+
+            <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Padding="1">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Monday, April 10&#10;" FontAttributes="Bold"/>
+                        <Span Text="04:00 PM - 4:35 PM" FontAttributes="Bold" FontSize='Medium'/>
+                    </FormattedString>
+                </Label.FormattedText>
+
+            </Label>
+
+            <Frame CornerRadius="13" HeightRequest="600" WidthRequest="500" VerticalOptions="End" HorizontalOptions="CenterAndExpand" BackgroundColor="GhostWhite">
+
+                <Grid Padding="-20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+
+
+                    </Grid.ColumnDefinitions>
+
+
+
+
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="0" Grid.Column="0" HasShadow="False" >
+
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+                            <Frame CornerRadius="15" HeightRequest="10" WidthRequest="10" BackgroundColor="MediumPurple" HasShadow="False">
+                                <Image
+                                    Source="https://cdn-icons.flaticon.com/png/128/3239/premium/3239948.png?token=exp=1646020617~hmac=a12ab05d09845d6c71f042c66a543379"
+                                    Aspect="AspectFill"
+                                    Margin="-6"
+                                    HeightRequest="30"
+                                    WidthRequest="30">
+
+                                </Image>
+
+                            </Frame>
+
+                        </StackLayout>
+                        
+
+                    </Frame>
+                    
+
+             
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HasShadow="False">
+                        <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Padding="1">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Monday, April 10&#10;" FontAttributes="Bold"/>
+                                    <Span Text="04:00 PM - 4:35 PM" FontAttributes="Bold" FontSize='Medium' TextColor="Black"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+
+                        </Label>
+                    </Frame>
+
+       
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="1" Grid.Column="0" HasShadow="False">
+
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+                            <Frame CornerRadius="10" HeightRequest="10" WidthRequest="10" BackgroundColor="IndianRed" HasShadow="False">
+                                <Image
+                                    Source="https://cdn-icons.flaticon.com/png/128/2838/premium/2838912.png?token=exp=1646020817~hmac=1429ed418e38c835632c111d94d31589"
+                                    Aspect="AspectFill"
+                                    Margin="-7"
+                                    HeightRequest="30"
+                                    WidthRequest="30">
+
+                                </Image>
+
+                            </Frame>
+                        </StackLayout>
+
+
+
+                    </Frame>
+
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HasShadow="False">
+                        <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Padding="1">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Location&#10;" FontAttributes="Bold"/>
+                                    <Span Text="meet.google.com/urm-isla" FontAttributes="Bold" FontSize='Medium' TextColor="#1565C0"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+
+                        </Label>
+                    </Frame>
+
+
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="2" Grid.Column="0" HasShadow="False">
+
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Frame CornerRadius="10" HeightRequest="10" WidthRequest="10" BackgroundColor="#D6FDEA"  >
+                                <Image
+                                    Source="https://cdn-icons.flaticon.com/png/128/511/premium/511587.png?token=exp=1646020928~hmac=66d5e4f3730b374c118784341281d44a"
+                                    Aspect="AspectFill"
+                                    Margin="-6"
+                                    HeightRequest="30"
+                                    WidthRequest="30">
+
+                                </Image>
+
+                            </Frame>
+                        </StackLayout>
+
+
+
+                    </Frame>
+
+                    <Frame BackgroundColor="GhostWhite" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HasShadow="False">
+                        <Label HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Padding="1">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Shared&#10;" FontAttributes="Bold"/>
+                                    <Span Text="Everyone" FontAttributes="Bold" FontSize='Medium' TextColor="Black"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+
+                        </Label>
+                    </Frame>
+                    
+
+
+                    <Frame BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                        
+                        <Grid RowSpacing="5" ColumnSpacing="30"  >
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition />
+
+                            </Grid.ColumnDefinitions>
+                            
+                            <Label  Grid.ColumnSpan="2" HorizontalTextAlignment="Start" HorizontalOptions="Start" >
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Participants" FontAttributes="Bold" FontSize='Medium' TextColor="Black"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Frame Grid.Row="1" Grid.Column="0" CornerRadius="30" HorizontalOptions="Center" VerticalOptions="Start">
+                                <Image
+                                    Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-01.jpg"
+                                    Aspect="AspectFill"
+                                    Margin="-20"
+                                    HeightRequest="48"
+                                    WidthRequest="48">
+                                    
+                                </Image>
+                                
+                            </Frame>
+
+                            <Frame Grid.Row="1" Grid.Column="1" CornerRadius="30" HorizontalOptions="Center" VerticalOptions="Start" >
+                                <Image
+                                    Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-07.jpg"
+                                    Aspect="AspectFill"
+                                    Margin="-20"
+                                    HeightRequest="48"
+                                    WidthRequest="48">
+
+                                </Image>
+
+                            </Frame>
+
+                            <Frame Grid.Row="1" Grid.Column="2" CornerRadius="30" HorizontalOptions="Center" VerticalOptions="Start">
+                                <Image
+                                    Source="https://kottke.org/plus/misc/images/ai-faces-01.jpg"
+                                    Aspect="AspectFill"
+                                    Margin="-20"
+                                    HeightRequest="48"
+                                    WidthRequest="48">
+
+                                </Image>
+
+                            </Frame>
+
+                            <Frame Grid.Row="1" Grid.Column="3" CornerRadius="30" HorizontalOptions="Center" VerticalOptions="Start" >
+                                <Image
+                                    Source="https://lh6.googleusercontent.com/proxy/8cSDnQXlmZJV-lg7F2S6gIv70re94I9W4czHKs1J6yznkTbszdJhXEIRND_nAsRvKxowojME2oaKaKM-279X7vd99k0HwwrUO_Fusxf4jXdxGT0G=s0-d"
+                                    Aspect="AspectFill"
+                                    Margin="-20"
+                                    HeightRequest="48"
+                                    WidthRequest="48">
+
+                                </Image>
+
+                            </Frame>
+
+                            <Frame Grid.Row="1" Grid.Column="4" CornerRadius="30" HorizontalOptions="Center" VerticalOptions="Start">
+                                <Image
+                                    Source="https://blog.jayway.com/wp-content/uploads/2020/06/sample_thispersondoesnotexist.png"
+                                    Aspect="AspectFill"
+                                    Margin="-20"
+                                    HeightRequest="48"
+                                    WidthRequest="48">
+
+                                </Image>
+
+                            </Frame>
+
+                        </Grid>
+
+                    </Frame>
+                    
+                    
+
+
+
+                </Grid>
+                
+                
+
+
+
+            </Frame>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="End"  >
+                <Frame HorizontalOptions="Start"  BackgroundColor="White">
+                    <Grid RowSpacing="1" ColumnSpacing="20" HorizontalOptions="CenterAndExpand" VerticalOptions="End" >
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"  />
+
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Row="0" Grid.Column="0" Text="Files" FontSize="Body" BackgroundColor="White" FontAttributes="Bold" TextColor="LightGray"></Button>
+                        <Button Grid.Row="0" Grid.Column="1" Text="Discusions" FontSize="Body" BackgroundColor="White" FontAttributes="Bold" TextColor="LightGray"></Button>
+                        <Button Grid.Row="0" Grid.Column="2" Text="About" FontSize="Body" BackgroundColor="White" FontAttributes="Bold"  ></Button>
+
+                    </Grid>
+                </Frame>
+            </StackLayout>
+
+
+
+        </Grid>
+        
+        
+    </ContentPage.Content>
+</ContentPage>
+    
+    
